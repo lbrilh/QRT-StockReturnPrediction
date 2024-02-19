@@ -19,3 +19,16 @@ RFClassifier uses only sqrt(n_features) in each prediction! << 0.5
 
 Try LGBM and RF using only sqrt(n_features)/n_features as feature fraction and compare (maybe using a table)
 It seems like even 0.5 might use way tooo many features
+
+
+
+TODO's: 
+Recreate the solution from github
+Adding aggregated / conditional volume metrics does not seem valuable
+
+Add relative RET / Sector Return
+Add stddev ret week 1 / Volume or overall return of the stock in week 1
+
+Adjusted return over volume to get returns due to volume shortage clear (COULD BE HUGHE)
+
+Iterate over fillna, various global staitistcs (INDUSTRY, SECTOR), statistic combinations, new feature engineering
