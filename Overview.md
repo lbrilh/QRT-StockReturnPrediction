@@ -14,5 +14,8 @@ Feature engineering
     - Ratio features
     - Consider more metrics
 
-look at rule to decide if up or down 
-How are they doing CV?
+
+RFClassifier uses only sqrt(n_features) in each prediction! << 0.5
+
+Try LGBM and RF using only sqrt(n_features)/n_features as feature fraction and compare (maybe using a table)
+It seems like even 0.5 might use way tooo many features
