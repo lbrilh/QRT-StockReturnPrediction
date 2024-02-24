@@ -86,3 +86,20 @@ Summary:
     Fold 4 - Accuracy: 51.90%
     Accuracy: 51.46% [50.74 ; 52.19] (+- 0.72)
     Global Accuracy: 0.5832296133494189
+
+- 10 day momentum + 20 day RSI + 5 day ADL grouped by industry
+    Fold 1 - Accuracy: 52.20%
+    Fold 2 - Accuracy: 50.61%
+    Fold 3 - Accuracy: 51.49%
+    Fold 4 - Accuracy: 51.93%
+    Accuracy: 51.56% [50.95 ; 52.16] (+- 0.60)
+
+
+BEST SUBMISSION
+- 10 day momentum + 20 day RSI + 5 day ADL grouped by sector
+
+    Fold 1 - Accuracy: 52.54%
+    Fold 2 - Accuracy: 50.63%
+    Fold 3 - Accuracy: 51.77%
+    Fold 4 - Accuracy: 52.03%
+    Accuracy: 51.74% [51.04 ; 52.44] (+- 0.70)
