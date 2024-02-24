@@ -23,77 +23,10 @@ It seems like even 0.5 might use way tooo many features
 
 
 TODO's: 
-Compare try with exclusive momentum (e.g. day 5-11,etc.) and overlapping momentum 5,10,15,20 day momentum 
-Add median momentum as scale 
-Compare how best model works when we add median as in previous best run (sector_date_median)
-Exclude less important features
+Try 14 day RSI 
+Do Hyperparameter selection
 
 Summary: 
-- Individual week momentum: not good 
-    Fold 1 - Accuracy: 51.56%
-    Fold 2 - Accuracy: 50.43%
-    Fold 3 - Accuracy: 51.04%
-    Fold 4 - Accuracy: 51.01%
-    Accuracy: 51.01% [50.61 ; 51.41] (+- 0.40)
-
-- 10 day momentum + median 
-    Fold 1 - Accuracy: 52.15%
-    Fold 2 - Accuracy: 50.31%
-    Fold 3 - Accuracy: 51.72%
-    Fold 4 - Accuracy: 51.79%
-    Accuracy: 51.49% [50.79 ; 52.20] (+- 0.70)
-    Global Accuracy: 0.5832391691252882
-
-- 5, 10, 15, 20 day momentum + median
-    Global Accuracy: 0.582063808693367
-
-- 5, 10, 15, 20 day momentum + median + 20 day RSI
-    Fold 1 - Accuracy: 52.46%
-    Fold 2 - Accuracy: 50.34%
-    Fold 3 - Accuracy: 51.49%
-    Fold 4 - Accuracy: 51.87%
-    Accuracy: 51.54% [50.76 ; 52.31] (+- 0.78)
-    Global Accuracy: 0.5826610446851969
-
-- 5, 10, 15, 20 day momentum + median + 10 day RSI
-    Fold 1 - Accuracy: 52.38%
-    Fold 2 - Accuracy: 50.32%
-    Fold 3 - Accuracy: 51.46%
-    Fold 4 - Accuracy: 51.94%
-    Accuracy: 51.52% [50.76 ; 52.29] (+- 0.77)
-    Global Accuracy:0.5824364839522689
-
-- 10 day momentum + median + 10 day RSI
-    Fold 1 - Accuracy: 52.06%
-    Fold 2 - Accuracy: 50.32%
-    Fold 3 - Accuracy: 51.67%
-    Fold 4 - Accuracy: 51.86%
-    Accuracy: 51.48% [50.80 ; 52.16] (+- 0.68)
-    Global Accuracy: 0.5828426044267132
-
-- 10 day momentum + median + 10 day RSI without mean volume, std volume and ratios of mean RET, VOLUME
-    Fold 1 - Accuracy: 52.04%
-    Fold 2 - Accuracy: 50.24%
-    Fold 3 - Accuracy: 51.69%
-    Fold 4 - Accuracy: 51.82%
-    Accuracy: 51.45% [50.74 ; 52.16] (+- 0.71)
-    Global Accuracy: 0.5806280533690082
-
-- 5, 10, 15, 20 day momentum + median + 10 day RSI + 20 day Sum_ADL
-    Fold 1 - Accuracy: 52.20%
-    Fold 2 - Accuracy: 50.30%
-    Fold 3 - Accuracy: 51.47%
-    Fold 4 - Accuracy: 51.90%
-    Accuracy: 51.46% [50.74 ; 52.19] (+- 0.72)
-    Global Accuracy: 0.5832296133494189
-
-- 10 day momentum + 20 day RSI + 5 day ADL grouped by industry
-    Fold 1 - Accuracy: 52.20%
-    Fold 2 - Accuracy: 50.61%
-    Fold 3 - Accuracy: 51.49%
-    Fold 4 - Accuracy: 51.93%
-    Accuracy: 51.56% [50.95 ; 52.16] (+- 0.60)
-
 
 BEST SUBMISSION
 - 10 day momentum + 20 day RSI + 5 day ADL grouped by sector
@@ -103,3 +36,5 @@ BEST SUBMISSION
     Fold 3 - Accuracy: 51.77%
     Fold 4 - Accuracy: 52.03%
     Accuracy: 51.74% [51.04 ; 52.44] (+- 0.70)
+
+
