@@ -36,5 +36,3 @@ BEST SUBMISSION
     Fold 3 - Accuracy: 51.77%
     Fold 4 - Accuracy: 52.03%
     Accuracy: 51.74% [51.04 ; 52.44] (+- 0.70)
-
-
