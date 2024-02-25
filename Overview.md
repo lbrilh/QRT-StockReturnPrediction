@@ -23,10 +23,11 @@ It seems like even 0.5 might use way tooo many features
 
 
 TODO's: 
-Try 14 day RSI 
-Do Hyperparameter selection
+Add non-linear features like exponential moving average, volume weighted average price adjustment, price volume trend, log-transform of volume?
 
 Summary: 
+
+Hyperparameter tuning leads to overfitting and we achieve worse results than using default hyperparameter. RSI should be left to 20. 
 
 BEST SUBMISSION
 - 10 day momentum + 20 day RSI + 5 day ADL grouped by sector
