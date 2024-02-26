@@ -31,6 +31,7 @@ Do np.arcsinh transformation of volume
 
 Summary: 
 Hyperparameter tuning leads to overfitting and we achieve worse results than using default hyperparameter. RSI should be left to 20. 
+Arcsinh transformation of volume does not help.
 
 BEST SUBMISSION
 - 10 day momentum + 20 day RSI + 5 day ADL grouped by sector
@@ -40,19 +41,3 @@ BEST SUBMISSION
     Fold 3 - Accuracy: 51.77%
     Fold 4 - Accuracy: 52.03%
     Accuracy: 51.74% [51.04 ; 52.44] (+- 0.70)
-
-- 10 day momentum + 20 day RSI + 5 day ADL grouped by sector + EMA RET, VOLUME
-    Fold 1 - Accuracy: 52.85%
-    Fold 2 - Accuracy: 50.25%
-    Fold 3 - Accuracy: 51.73%
-    Fold 4 - Accuracy: 52.11%
-    Accuracy: 51.73% [50.78 ; 52.68] (+- 0.95)
-
-- same as before but now arcsinh volume transformation after imputing
-    Fold 1 - Accuracy: 52.94%
-    Fold 2 - Accuracy: 50.35%
-    Fold 3 - Accuracy: 51.92%
-    Fold 4 - Accuracy: 51.97%
-    Accuracy: 51.79% [50.86 ; 52.72] (+- 0.93)
-
-Didn't work :(
