@@ -41,3 +41,10 @@ BEST SUBMISSION
     Fold 3 - Accuracy: 51.77%
     Fold 4 - Accuracy: 52.03%
     Accuracy: 51.74% [51.04 ; 52.44] (+- 0.70)
+
+- Same but now we drop the missing rows
+    Fold 1 - Accuracy: 52.04%
+    Fold 2 - Accuracy: 51.10%
+    Fold 3 - Accuracy: 53.37%
+    Fold 4 - Accuracy: 51.99%
+    Accuracy: 52.13% [51.32 ; 52.94] (+- 0.81)
