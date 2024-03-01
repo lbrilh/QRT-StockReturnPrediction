@@ -1,3 +1,5 @@
+This document includes notes and observations made during the coding process, so nothing interesting can be found here :)
+
 metric: accuracy of the predicted residual stock return sign (predict whether it goes up or down)
 
 I do not pursue a classical time series analysis approach since this is a classification task.
