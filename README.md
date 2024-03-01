@@ -36,7 +36,7 @@ The challenge provides 418,595 observations for training and 198,429 for testing
 ### Results / Achievements
 
 - **Accuracy:** Achieved an accuracy of **0.5197** (username: lucabri), surpassing the benchmark score of 0.5131.
-- **Ranking:** Placeing me **33rd out of 313** participants.
+- **Ranking:** Placing me **33rd out of 313** participants.
 
 ## Usage
 
