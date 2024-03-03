@@ -9,7 +9,7 @@ This repository contains my solution for QRT's stock return prediction challenge
 
 The challenge aims to predict the residual return of a stock in the US market using 20 days of historical data, including residual stock returns and relative volumes. The key objective is to predict the sign of a stock's residual return. Data provided includes various features like industry indexes, sector indexes, and historical returns and volumes.
 
-For more details about the challenge, visit the [official website](https://challengedata.ens.fr/participants/challenges/23/).
+For more details about the challenge, visit the [official website](https://challengedata.ens.fr/challenges/23).Attention: You need to be logged in to access the public score and the files.
 
 ## Data Description
 
@@ -35,8 +35,8 @@ The challenge provides 418,595 observations for training and 198,429 for testing
 
 ### Results / Achievements
 
-- **Accuracy:** Achieved an accuracy of **0.5197** (username: lucabri), surpassing the benchmark score of 0.5131.
-- **Ranking:** Placing me **33rd out of 313** participants.
+- **Accuracy:** Achieved an accuracy of **0.5197** (username: lucabri), surpassing the benchmark score of 0.5131, score of winner: 0.5287
+- **Ranking:** Placing me in the **top 15% out of 316** participants.
 
 ## Usage
 
